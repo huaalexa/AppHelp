@@ -1,6 +1,6 @@
 {
   "MainExe":"RtpCast.exe",
-  "DownloadBaseUrl":"",
+  "DownloadBaseUrl":"http://115.28.227.64/AppHelp/RtpCast/UpdateApp/",
   "VersionCode":2,
   "VersionName":"1.0.0.1",
   "VersionMsg":["1)新增喊话功能对讲功能对讲功能；","2)对讲功能对讲功能对讲功能对讲功能。","3)网络音频广播。"],
