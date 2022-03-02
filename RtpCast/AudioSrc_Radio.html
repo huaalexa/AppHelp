@@ -1,0 +1,57 @@
+<!doctype html public "-//W3C//DTD HTML 4.0 Transitional//EN"><html><head><title> RtpCast: Audio Source </title><link rel="icon" href="/favicon.ico"><link rel="shortcut icon" href="/favicon.ico"><style type="text/css" title="Audio Source">body {font-family: Tahoma, Verdana, Arial, Serif; font-size: 12px; font-weight: 400;background-color: #ffffff; /*  #272727 */}td {font-family: Tahoma, Verdana, Arial, Serif; font-size: 13px; font-weight: 400;}.head{font-family: Tahoma, Verdana, Arial, Serif; font-size: 12px; font-weight: 600;}.mid{font-family: Tahoma, Verdana, Arial, Serif; font-size: 14px; font-weight: 600;}.mini{font-family: Tahoma, Verdana, Arial, Serif; font-size: 10px; font-weight: 400;}.fine{font-family: Tahoma, Verdana, Arial, Serif; font-size: 8px; font-weight: 400;}.bold{font-weight: 600;}.func{padding-left: 5px;padding-right: 5px;padding-top: 10px;padding-bottom: 10px;}#default {font-family: Tahoma, Verdana, Arial, Serif; font-size: 12px; font-weight: 400;}#copy {font-family: Tahoma, Verdana, Arial, Serif; font-size: 10px; font-weight: 400;color: #fff;}#copy a{color: #D0EFF9; text-decoration: none;}#copy a:hover{color: #52B0FE; text-decoration: none;}</style>
+<script type="text/javascript">
+function AutoResizeImage(maxWidth,maxHeight,objImg){
+var img = new Image();
+img.src = objImg.src;
+var hRatio;
+var wRatio;
+var Ratio = 1;
+var w = img.width;
+var h = img.height;
+wRatio = maxWidth / w;
+hRatio = maxHeight / h;
+if (maxWidth ==0 && maxHeight==0){
+Ratio = 1;
+}else if (maxWidth==0){//
+if (hRatio<1) Ratio = hRatio;
+}else if (maxHeight==0){
+if (wRatio<1) Ratio = wRatio;
+}else if (wRatio<1 || hRatio<1){
+Ratio = (wRatio<=hRatio?wRatio:hRatio);
+}
+if (Ratio<1){
+w = w * Ratio;
+h = h * Ratio;
+}
+objImg.height = h;
+objImg.width = w;
+}
+</script>
+</head><body><center>
+<table width="705" cellpadding="5" cellspacing="0" border="0" class="default" bgcolor="#ffffff">
+<tr>
+<td><a href="./images/AudioSrc_Radio.png" target="_blank">
+<img src="./images/AudioSrc_Radio.png" border="0" onload="AutoResizeImage(700,489,this)"  alt="700 X 489"/></a>
+</td>
+</tr>
+<!-- END MAIN IMAGE -->
+<tr>
+<td>
+<p><font class="mid">[Add] music</font>	</p>&nbsp;&nbsp;&nbsp;&nbsp;
+	That's right! If you are seeing this it means that the web server installed at this site is working properly, but has not yet been configured.
+</td>
+</tr><!-- END FUNCTION ITEM -->
+<tr>
+<td>
+<p><font class="mid">[Delete] music</font></p>&nbsp;&nbsp;&nbsp;&nbsp;	
+	That's right! If you are seeing this it means that the web server installed at this site is working properly, but has not yet been configured.	
+</td>
+</tr><!-- END FUNCTION ITEM -->
+<tr>
+<td>
+<p><font class="mid">[Clear] music</font></p>&nbsp;&nbsp;&nbsp;&nbsp;	
+	That's right! If you are seeing this it means that the web server installed at this site is working properly, but has not yet been configured.	
+</td>
+</tr><!-- END FUNCTION ITEM -->
+</table>
+<font id="copy" class="mini">Copyright &copy; 2022 <a href="https://www.link-com.com">Sinrey</a>, All Rights Reserved.</font></center></body></html>
