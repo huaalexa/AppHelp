@@ -1,0 +1,55 @@
+1)gitee
+http://huaalexa.gitee.io/app-help/RtpCast/UpdateApp/Update.json
+
+http://huaalexa.gitee.io/app-help/RtpCast/AudioSrc.html
+
+http://huaalexa.gitee.io/app-help/RtpCast/DestZone.html
+
+http://huaalexa.gitee.io/app-help/RtpCast/Scheduler.html
+
+http://huaalexa.gitee.io/app-help/RtpCast/ManualPlayer.html
+
+http://huaalexa.gitee.io/app-help/RtpCast/AutoSampler.html
+
+http://huaalexa.gitee.io/app-help/RtpCast/updateapp/rtpcast.exe
+
+http://huaalexa.gitee.io/app-help/RtpCast/UpdateApp/Codec/x64/avcodec-58.dll
+
+
+
+2)vercel
+https://app-help.vercel.app/RtpCast/UpdateApp/Update.json
+https://app-help-48965725-qqcom.vercel.app/RtpCast/UpdateApp/Update.json
+
+https://app-help-48965725-qqcom.vercel.app/RtpCast/AudioSrc.html
+
+https://app-help-48965725-qqcom.vercel.app/RtpCast/DestZone.html
+
+https://app-help-48965725-qqcom.vercel.app/RtpCast/Scheduler.html
+
+https://app-help-48965725-qqcom.vercel.app/RtpCast/ManualPlayer.html
+
+https://app-help-48965725-qqcom.vercel.app/RtpCast/AutoSampler.html
+
+https://app-help-48965725-qqcom.vercel.app/RtpCast/UpdateApp/RtpCast.exe
+
+https://app-help-48965725-qqcom.vercel.app/RtpCast/UpdateApp/Codec/x64/avcodec-58.dll
+
+2)github
+
+
+
+
+echo "# AppHelp" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:huaalexa/AppHelp.git
+git push -u origin main
+
+
+
+git remote add origin git@github.com:huaalexa/AppHelp.git
+git branch -M main
+git push -u origin main
