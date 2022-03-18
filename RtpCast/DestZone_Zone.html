@@ -1,57 +1,40 @@
-<!doctype html public "-//W3C//DTD HTML 4.0 Transitional//EN"><html><head><title> RtpCast: Destinations & Zones </title><link rel="icon" href="/favicon.ico"><link rel="shortcut icon" href="/favicon.ico"><style type="text/css" title="Destinations & Zones">body {font-family: Tahoma, Verdana, Arial, Serif; font-size: 12px; font-weight: 400;background-color: #ffffff; /*  #272727 */}td {font-family: Tahoma, Verdana, Arial, Serif; font-size: 13px; font-weight: 400;}.head{font-family: Tahoma, Verdana, Arial, Serif; font-size: 12px; font-weight: 600;}.mid{font-family: Tahoma, Verdana, Arial, Serif; font-size: 14px; font-weight: 600;}.mini{font-family: Tahoma, Verdana, Arial, Serif; font-size: 10px; font-weight: 400;}.fine{font-family: Tahoma, Verdana, Arial, Serif; font-size: 8px; font-weight: 400;}.bold{font-weight: 600;}.func{padding-left: 5px;padding-right: 5px;padding-top: 10px;padding-bottom: 10px;}#default {font-family: Tahoma, Verdana, Arial, Serif; font-size: 12px; font-weight: 400;}#copy {font-family: Tahoma, Verdana, Arial, Serif; font-size: 10px; font-weight: 400;color: #fff;}#copy a{color: #D0EFF9; text-decoration: none;}#copy a:hover{color: #52B0FE; text-decoration: none;}</style>
-<script type="text/javascript">
-function AutoResizeImage(maxWidth,maxHeight,objImg){
-var img = new Image();
-img.src = objImg.src;
-var hRatio;
-var wRatio;
-var Ratio = 1;
-var w = img.width;
-var h = img.height;
-wRatio = maxWidth / w;
-hRatio = maxHeight / h;
-if (maxWidth ==0 && maxHeight==0){
-Ratio = 1;
-}else if (maxWidth==0){//
-if (hRatio<1) Ratio = hRatio;
-}else if (maxHeight==0){
-if (wRatio<1) Ratio = wRatio;
-}else if (wRatio<1 || hRatio<1){
-Ratio = (wRatio<=hRatio?wRatio:hRatio);
-}
-if (Ratio<1){
-w = w * Ratio;
-h = h * Ratio;
-}
-objImg.height = h;
-objImg.width = w;
-}
-</script>
-</head><body><center>
-<table width="705" cellpadding="5" cellspacing="0" border="0" class="default" bgcolor="#ffffff">
-<tr>
-<td><a href="./images/DestZone_Zone.png" target="_blank">
-<img src="./images/DestZone_Zone.png" border="0" onload="AutoResizeImage(700,489,this)"  alt="700 X 489"/></a>
-</td>
-</tr>
+<!doctype html public "-//W3C//DTD HTML 4.0 Transitional//EN"><html><head><title> RtpCast: Destinations & Zones </title><link rel="icon" href="/favicon.ico"><link rel="shortcut icon" href="/favicon.ico"><link rel="stylesheet" type="text/css" href="StyleFrame.css"><script type="text/javascript" src="Function.js"></script></head><body><center><table width="705" cellpadding="5" cellspacing="0" border="0" class="default" bgcolor="#ffffff"><tr><td><a href="./images/DestZone_Zone.png" target="_blank"><img src="./images/DestZone_Zone.png" border="0" onload="AutoResizeImage(700,489,this)"  alt="700 X 489"/></a></td></tr>
 <!-- END MAIN IMAGE -->
+<!-- BEGIN INTRODUCTION -->
 <tr>
-<td>
-<p><font class="mid">[Add] music</font>	</p>&nbsp;&nbsp;&nbsp;&nbsp;
-	That's right! If you are seeing this it means that the web server installed at this site is working properly, but has not yet been configured.
-</td>
-</tr><!-- END FUNCTION ITEM -->
+	<td>
+		<p>
+			<font class="mid">Introduction</font>
+		</p>
+	</td>
+</tr>
 <tr>
-<td>
-<p><font class="mid">[Delete] music</font></p>&nbsp;&nbsp;&nbsp;&nbsp;	
-	That's right! If you are seeing this it means that the web server installed at this site is working properly, but has not yet been configured.	
-</td>
-</tr><!-- END FUNCTION ITEM -->
+	<td>
+		<p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Destinations &amp; Zones can effectively classify and organize the destination, which is convenient for users to operate and maintain.</p>
+	</td>
+</tr>
 <tr>
-<td>
-<p><font class="mid">[Clear] music</font></p>&nbsp;&nbsp;&nbsp;&nbsp;	
-	That's right! If you are seeing this it means that the web server installed at this site is working properly, but has not yet been configured.	
-</td>
-</tr><!-- END FUNCTION ITEM -->
-</table>
-<font id="copy" class="mini">Copyright &copy; 2022 <a href="https://www.link-com.com">Sinrey</a>, All Rights Reserved.</font></center></body></html>
+	<td>
+		<p>
+			<font class="mid">Operation</font>
+		</p>
+	</td>
+</tr>
+<!-- END FUNCTION ITEM -->
+<tr>
+	<td>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(1) According to the actual needs of the project, you can right-click  the root node (&quot;<b>All zones</b>&quot;) or a parent node on the organization structure tree of the middle panel, and then click the [Create Zone] menu item, or click the [<b>Create Zone</b>] in the left navigation panel to generate the zone node name &quot;<b>New Zone (x)</b>&quot; by default(x = 1,2,3...). At this time, you can right-click the node,and then [<b>Rename</b>] or [<b>Delete</b>] the zone node.</td>
+</tr>
+<!-- END FUNCTION ITEM -->
+<tr>
+	<td>
+	  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(2) You can right-click the zone node to create a sub zone (the maximum nested sub zone level is 5) or the operation of the destination (please see &quot;<a href="DestZone_Dest.html" target="_self"><i><b>Destination</b></i></a>&quot;).</td>
+</tr>
+<!-- END FUNCTION ITEM -->
+<!-- END INTRODUCTION -->
+<tr>
+	<td>
+		<p/>
+	</td>
+</tr></table></center></body></html>
